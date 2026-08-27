@@ -1,0 +1,5 @@
+name: JoinQuitMessages
+version: 1.0.0
+api: 5.0.0
+main: kostamax27\JoinQuitMessages\Loader
+description: Broadcasts player join/quit messages across all servers over a RabbitMQ topic exchange

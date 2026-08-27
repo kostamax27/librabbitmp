@@ -1,0 +1,16 @@
+name: StaffChat
+version: 1.0.0
+api: 5.0.0
+main: kostamax27\StaffChat\Loader
+description: Cross-server staff chat over a RabbitMQ topic exchange
+
+commands:
+  sc:
+    description: Send a message to staff on all servers
+    usage: "/sc <message>"
+    permission: staffchat.use
+
+permissions:
+  staffchat.use:
+    description: Send and receive staff chat messages
+    default: op

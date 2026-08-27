@@ -1,0 +1,16 @@
+name: WhoIs
+version: 1.0.0
+main: kostamax27\whois\Loader
+api: 5.0.0
+description: Look up which world a player is in and their ping on any server of the network, over RabbitMQ RPC
+
+commands:
+  whois:
+    description: Look up a player on another server
+    usage: "/whois <server> <player>"
+    permission: whois.use
+
+permissions:
+  whois.use:
+    default: op
+    description: Allows using /whois

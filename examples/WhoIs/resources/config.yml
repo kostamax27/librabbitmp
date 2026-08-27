@@ -1,0 +1,9 @@
+# Unique name of this server - other servers query it as /whois <this name> <player>
+server-name: lobby
+
+rabbitmq:
+  host: 127.0.0.1
+  port: 5672
+  vhost: /
+  username: guest
+  password: guest

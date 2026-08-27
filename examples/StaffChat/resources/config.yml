@@ -1,0 +1,9 @@
+# Name of this server, shown as the message source on other servers.
+server-name: lobby
+
+rabbitmq:
+  host: 127.0.0.1
+  port: 5672
+  vhost: /
+  username: guest
+  password: guest

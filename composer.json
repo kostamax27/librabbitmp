@@ -1,0 +1,17 @@
+{
+    "name": "kostamax27/librabbitmp",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "ext-pmmpthread": "*",
+        "sof3/await-generator": "^3.6.1",
+        "php-amqplib/php-amqplib": "^3.7"
+    },
+    "require-dev": {
+        "pocketmine/pocketmine-mp": "^5.0.0"
+    },
+    "autoload": {
+        "classmap": ["src"]
+    }
+}
